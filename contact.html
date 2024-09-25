@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <section class="contact-info">
+        <ul>
+            <li>Email: jirasinrattanatisio2004@gmail.com</li>
+            <li>Phone: 0902217964</li>
+            <li>Location: Nontaburi City</li>
+        </ul>
+    </section>
+
+    <form class="" action="mailto:(Your email)" method="post"        enctype="text/plain">
+
+        <h2>ติดต่อฉัน</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><a href="index.html">Back to Profile</a></p>
+    </footer>
+</body>
+</html>
